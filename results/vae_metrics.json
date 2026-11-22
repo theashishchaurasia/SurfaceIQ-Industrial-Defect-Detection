@@ -1,0 +1,32 @@
+{
+  "model": "TinyVAE",
+  "latent_dimension": 8,
+  "input_size": "28x28 grayscale",
+  "training_images": 600,
+  "validation_images": 180,
+  "epochs": 5,
+  "validation_loss_per_image": 517.52998046875,
+  "training_history": [
+    {
+      "epoch": 1,
+      "training_loss_per_image": 545.7939322916667
+    },
+    {
+      "epoch": 2,
+      "training_loss_per_image": 539.6878271484375
+    },
+    {
+      "epoch": 3,
+      "training_loss_per_image": 534.5006136067708
+    },
+    {
+      "epoch": 4,
+      "training_loss_per_image": 529.6888623046875
+    },
+    {
+      "epoch": 5,
+      "training_loss_per_image": 524.9749365234375
+    }
+  ],
+  "purpose": "Educational image reconstruction and latent-space demonstration"
+}

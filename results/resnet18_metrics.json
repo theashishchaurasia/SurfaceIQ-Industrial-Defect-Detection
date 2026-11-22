@@ -1,0 +1,48 @@
+{
+  "model": "resnet18",
+  "evaluation_partition": "validation",
+  "validation_images": 270,
+  "accuracy": 0.9259259259259259,
+  "macro_precision": 0.9262333034765967,
+  "macro_recall": 0.9259259259259259,
+  "macro_f1": 0.9256695841778301,
+  "weighted_f1": 0.92566958417783,
+  "per_class": {
+    "crazing": {
+      "precision": 1.0,
+      "recall": 0.9555555555555556,
+      "f1-score": 0.9772727272727273,
+      "support": 45.0
+    },
+    "inclusion": {
+      "precision": 0.8085106382978723,
+      "recall": 0.8444444444444444,
+      "f1-score": 0.8260869565217391,
+      "support": 45.0
+    },
+    "patches": {
+      "precision": 0.9574468085106383,
+      "recall": 1.0,
+      "f1-score": 0.9782608695652174,
+      "support": 45.0
+    },
+    "pitted_surface": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8,
+      "f1-score": 0.8275862068965517,
+      "support": 45.0
+    },
+    "rolled_in_scale": {
+      "precision": 0.9565217391304348,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.967032967032967,
+      "support": 45.0
+    },
+    "scratches": {
+      "precision": 0.9777777777777777,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.9777777777777777,
+      "support": 45.0
+    }
+  }
+}

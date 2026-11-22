@@ -1,0 +1,5 @@
+# Usage
+
+`python -m src.cli inspect-data` audits images, labels, corruption and exact-byte duplicates; exports JSON, CSV and class chart. `python -m src.cli train --model cnn --epochs 10` or `--model resnet18` trains with stratified train/validation/test split, augmentation, AdamW, LR scheduling and early stopping. Best validation-loss checkpoint is saved. Test partition is reserved; evaluate on it before reporting results. `python -m src.cli predict --image sample.jpg --model cnn` predicts after training.
+
+YOLO: audit VOC XML using `inspect_voc_annotations(root)`. Training requires correctly converted YOLO normalized boxes and a valid dataset YAML. Never invent boxes. U-Net: provide pixel-level PNG masks with same stem as each image, background 0 and defect pixels nonzero. Grad-CAM is qualitative explanation, not segmentation. Macro-F1 gives equal class weight; weighted-F1 reflects class prevalence. mAP requires boxes; IoU/Dice require masks. False-reject rate requires a defined accept/reject policy.

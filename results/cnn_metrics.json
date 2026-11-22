@@ -1,0 +1,48 @@
+{
+  "model": "cnn",
+  "evaluation_partition": "validation",
+  "validation_images": 270,
+  "accuracy": 0.8444444444444444,
+  "macro_precision": 0.8614675902259122,
+  "macro_recall": 0.8444444444444444,
+  "macro_f1": 0.8443988598802538,
+  "weighted_f1": 0.8443988598802538,
+  "per_class": {
+    "crazing": {
+      "precision": 0.8775510204081632,
+      "recall": 0.9555555555555556,
+      "f1-score": 0.9148936170212766,
+      "support": 45.0
+    },
+    "inclusion": {
+      "precision": 0.6129032258064516,
+      "recall": 0.8444444444444444,
+      "f1-score": 0.7102803738317757,
+      "support": 45.0
+    },
+    "patches": {
+      "precision": 0.9512195121951219,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.9069767441860465,
+      "support": 45.0
+    },
+    "pitted_surface": {
+      "precision": 0.8604651162790697,
+      "recall": 0.8222222222222222,
+      "f1-score": 0.8409090909090909,
+      "support": 45.0
+    },
+    "rolled_in_scale": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 45.0
+    },
+    "scratches": {
+      "precision": 0.8666666666666667,
+      "recall": 0.5777777777777777,
+      "f1-score": 0.6933333333333334,
+      "support": 45.0
+    }
+  }
+}

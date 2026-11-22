@@ -1,0 +1,22 @@
+project:
+  name: "Industrial Surface Defect Inspection Platform"
+  seed: 42
+dataset:
+  root: "C:/Users/ashis/Downloads/Industrial-Defect-Detection-Python/Industrial-Defect-Detection/datasets/NEU-DET"
+  image_size: 200
+  batch_size: 16
+  num_workers: 0
+  train_fraction: 0.70
+  val_fraction: 0.15
+  test_fraction: 0.15
+  segmentation_masks: "datasets/masks"
+training:
+  epochs: 15
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 5
+  device: "cpu"
+models:
+  checkpoint_dir: "models"
+results_dir: "results"
+classes: [crazing, inclusion, patches, pitted_surface, rolled_in_scale, scratches]

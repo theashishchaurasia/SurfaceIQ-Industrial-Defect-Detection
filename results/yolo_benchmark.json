@@ -1,0 +1,11 @@
+{
+  "model": "YOLOv8n",
+  "weights": "C:\\Users\\ashis\\Downloads\\Industrial-Defect-Detection-Python\\Industrial-Defect-Detection\\models\\yolo_best.pt",
+  "device": "CPU",
+  "image_size": 320,
+  "benchmark_images": 30,
+  "total_time_seconds": 1.3305,
+  "average_latency_ms": 44.35,
+  "average_fps": 22.55,
+  "measurement": "Single-image end-to-end prediction latency"
+}

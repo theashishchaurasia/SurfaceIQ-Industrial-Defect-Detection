@@ -1,0 +1,17 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset - do not upload
+datasets/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+results/dataset_manifest.csv

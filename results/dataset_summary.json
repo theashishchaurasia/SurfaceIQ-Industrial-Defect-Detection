@@ -1,0 +1,20 @@
+{
+  "total_images": 1800,
+  "valid_labeled_images": 1800,
+  "corrupt_images": [],
+  "duplicates": [
+    {
+      "path": "C:\\Users\\ashis\\Downloads\\Industrial-Defect-Detection-Python\\Industrial-Defect-Detection\\datasets\\NEU-DET\\train\\images\\patches\\patches_105.jpg",
+      "duplicate_of": "C:\\Users\\ashis\\Downloads\\Industrial-Defect-Detection-Python\\Industrial-Defect-Detection\\datasets\\NEU-DET\\train\\images\\patches\\patches_101.jpg"
+    }
+  ],
+  "unknown_label_images": [],
+  "class_counts": {
+    "crazing": 300,
+    "inclusion": 300,
+    "patches": 300,
+    "pitted_surface": 300,
+    "rolled_in_scale": 300,
+    "scratches": 300
+  }
+}
